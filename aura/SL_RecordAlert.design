@@ -1,0 +1,6 @@
+<design:component>
+    <design:attribute name="title" label="The title of the Notification Message"/>
+    <design:attribute name="messageType" label="Type of Message" datasource="Info,Success,Error,Warning" />
+    <design:attribute name="alertType" label="Type of Alert" datasource="Dismissible,Sticky" />
+    <design:attribute name="message" label="Add the message you want to display with any fields inside {{double_curly_braces__c}} (If Any)"/>
+</design:component>

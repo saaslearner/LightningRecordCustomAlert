@@ -1,0 +1,9 @@
+<aura:component controller="SL_RecordAlertController" implements="force:hasSObjectName,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+    <aura:attribute name="title" type="String" default="Title here!!!"/>
+    <aura:attribute name="alertType" type="String" default="Dismissible"/>
+    <aura:attribute name="messageType" type="String" default="Success"/>
+    <aura:attribute name="message" type="String" default = "Message here...!!!"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+</aura:component>
